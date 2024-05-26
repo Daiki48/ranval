@@ -5,7 +5,7 @@ Generates random value :zap:
 ## Usage
 
 ```ts
-import { generateRanInt } from "jsr:@daiki48/ranval";
+import { generateRanInt } from "@daiki48/ranval";
 
-console.log(generateRanInt(3));
+console.log(generateRanInt(3)); // Generate a random 3-digit integer.
 ```
