@@ -37,7 +37,7 @@ console.log(
   "Set all options disabled : ",
   generateRanString(3, {
     lowerCase: false,
-    uppoerCase: false,
+    upperCase: false,
     numberCase: false,
   })
 );

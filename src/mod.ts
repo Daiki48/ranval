@@ -19,8 +19,8 @@ export const generateRanInt = (digits: number): number => {
 	*/
 export const generateRanString = (length: number, opts: Options = {}): string => {
 	const characters: string = 'abcdefghijklmnopqrstuvwxyz';
-	const upperCaseCharacters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-	const numberCaseCharacters = '0123456789';
+	const upperCaseCharacters: string = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+	const numberCaseCharacters: string = '0123456789';
 	let result: string = '';
 
 	const { lowerCase = true, uppoerCase = false, numberCase = false } = opts;
