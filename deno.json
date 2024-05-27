@@ -1,8 +1,8 @@
 {
   "name": "@daiki48/ranval",
-  "version": "0.1.1",
-  "exports": "./mod.ts",
+  "version": "0.1.2",
+  "exports": "./src/mod.ts",
   "tasks": {
-    "dev": "deno run --watch mod.ts"
+    "dev": "deno run --watch ./src/mod.ts"
   }
 }
